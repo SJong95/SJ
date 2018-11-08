@@ -12,7 +12,7 @@ public class Assss {
 
 		boolean run = true;
 		int r1 = 0, c1 = 0, r2 = 0, c2 = 0;
-
+		
 		while (run) {
 			System.out.print("> ");
 			String rc = scan.nextLine();
@@ -87,7 +87,7 @@ public class Assss {
 		}
 	}
 
-	public static boolean arrContains() {
+	public static boolean arrContains() { // 배열에 0이 잇는지 없는지 확인
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = 0; j < arr[i].length; j++) {
 				if (arr[i][j] == 0) {
